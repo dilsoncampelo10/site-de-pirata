@@ -6,18 +6,27 @@
 }
 body{
     margin: 0;
+    background-color: #90bede3f;
 }
 #cabecalho{
     margin-top:-25px;
     background-image: url(imagens/backmapa.jpg); 
     padding: 70px;
 }
-#cabecalho h1{
-    color: aliceblue;
+#titulos h1{
+    color: #41337A;
     margin-left: -60px;
     font-family: 'Pirate';
     font-size: 5em;
-    text-shadow: 5px 5px 4px black;
+    text-shadow: 3px 3px 2px #36382E;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+#titulos h2{
+    color: #E3170A;
+    text-shadow: 2px 2px 1px #36382E;
+    font: normal 2em 'Suez One', serif;
+    margin-left: -20px;
 }
 #menu{
     position: absolute;
@@ -30,11 +39,19 @@ body{
 #menu li{
     display: inline-block;
     padding: 15px;
+    
 }
 #menu a{
-    font-family:'Suez One', serif;;
-    color: aliceblue;
+    font-family:'Suez One', serif;
+    color: #90BEDE;
     text-transform: uppercase;
-    text-shadow: 5px 5px 5px black;
+    text-shadow:  3px 3px 3px #41337A;
+    font-weight: bold;
     text-decoration: none;
+    opacity: 100%;
+}
+#menu a:hover{
+    text-decoration: underline;
+    color: #41337A;
+    text-shadow: 1px 1px 1px#90BEDE;
 }
