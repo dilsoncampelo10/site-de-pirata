@@ -8,6 +8,7 @@ body{
     margin: 0;
     background-color: #90bede3f;
 }
+/*Header*/
 #cabecalho{
     margin-top:-25px;
     background-image: url(imagens/backmapa.jpg); 
@@ -55,3 +56,38 @@ body{
     color: #41337A;
     text-shadow: 1px 1px 1px#90BEDE;
 }
+/*Section*/
+#meio{
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 50em;
+    border: solid 1px #41337A;
+    box-shadow: 1px 1px 2px #36382E;
+    padding: 5px;
+    border-radius: 4px;
+}
+#meio div#img1{
+  margin-top:-40px ;
+    text-align: left;
+    
+}
+#meio p{
+    margin-top: -90px;
+    margin-left: 160px;
+    text-align: justify;
+}
+#meio h1{
+    text-align: center;
+    font-family: 'Pirate';
+    color: #41337A;
+}
+#rodape{
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: right;
+}
+#rodape a{
+    text-decoration: none;
+    color: #E3170A;
+}
+
