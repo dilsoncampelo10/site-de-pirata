@@ -14,7 +14,7 @@ body{
     background-image: url(imagens/backmapa.jpg); 
     padding: 70px;
 }
-#titulos h1{
+h1.titulo1{
     color: #41337A;
     margin-left: -60px;
     font-family: 'Pirate';
@@ -29,20 +29,20 @@ body{
     font: normal 2em 'Suez One', serif;
     margin-left: -20px;
 }
-#menu{
+.menu{
     position: absolute;
 }
-#menu ul{
+.menu ul{
     margin-left: 700px;
     margin-top: 10px;
     font-size: 1.5em;
 }
-#menu li{
+.menu li{
     display: inline-block;
     padding: 15px;
     
 }
-#menu a{
+.menu a{
     font-family:'Suez One', serif;
     color: #90BEDE;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ body{
     text-decoration: none;
     opacity: 100%;
 }
-#menu a:hover{
+.menu a:hover{
     text-decoration: underline;
     color: #41337A;
     text-shadow: 1px 1px 1px#90BEDE;
@@ -90,4 +90,6 @@ body{
     text-decoration: none;
     color: #E3170A;
 }
+/*Página Sobre*/
+.
 
