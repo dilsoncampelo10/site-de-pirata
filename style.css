@@ -10,7 +10,7 @@ body{
 }
 /*Index*/
 /*Header*/
-#cabecalho{
+.cabecalho{
     margin-top:-25px;
     background-image: url(imagens/backmapa.jpg); 
     padding: 70px;
@@ -92,13 +92,7 @@ h2.titulo2{
     color: #E3170A;
 }
 /*Página Sobre*/
-#cabecalho2{
-    padding: 70px;
-    margin-top: -80px;
-    background-color:#36382ea8;
-    box-shadow: 2px 2px 2px #36382E;
-    margin-bottom: 1.5em;
-}
+
 .principal{
     padding: 3em;
 }
